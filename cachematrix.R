@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 }
 
-##asdf
+
 ## This function performs the matrix inversion and also caches the inverse.
 
 cacheSolve <- function(x, ...) {
